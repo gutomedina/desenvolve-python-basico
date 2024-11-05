@@ -1,0 +1,14 @@
+Dadas as regras do truque da tabuada do 9, escreva a solução algorítmica das 3 maneiras que conhecemos: dissertativa, fluxograma e pseudocódigo. 
+
+ Regras: O resultado da multiplicação do 9 por qualquer valor n é calculado por dígito, da seguinte maneira:
+
+9 x n = n-1 10-n 
+
+O resultado final deve multiplicar o primeiro dígito (a dezena) por 10 e somar com o segundo dígito (a unidade)
+
+9 x n = (n-1) x 10 + (10-n) 
+
+Lembre-se de seguir o passo a passo de entrada (leitura dos dados necessários), processamento (operações listadas acima) e saída (impressão do resultado final).
+
+Resolução dissertativa: 
+Primeiramente devemos ter a entrada, ou seja, determinar o valor de "n", que é o número que irá  multiplicar o número 9, este valor deve ser fornecido pelo usuário do programa. Em seguida, deve haver o processamento, no qual é feito o calculo da dezena ( n - 1 ), depois calculamos a unidade ( 10 - n ), depois de estabelecer a dezena e a unidade, é necessário montar o número final, multiplicando o valor da dezena por 10 e somando o valor encontrado como unidade ( RESULTADO = ( n - 1 ) x 10 + ( 10 - n )) e por fim deve haver a saída, ou seja, o RESULTADO deve ser exibido para o usuário.
