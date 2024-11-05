@@ -1,0 +1,13 @@
+Início
+// ENTRADA
+Ler n
+
+// PROCESSAMENTO
+Dezena <- n - 1
+Unidade <- 10 - n
+Resultado <-(dezena*10) + unidade
+
+// SAÍDA
+Escrever  " O resultado de 9 x", n,"é: ", resultado
+
+FIM
